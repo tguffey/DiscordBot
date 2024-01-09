@@ -12,7 +12,7 @@ module.exports = {
             await interaction.reply("What's up?")
         }
         else if (interaction.user.id === "294680009573138433") {
-            await interaction.reply(":clown: ")
+            await interaction.reply(":clown:")
         }
         else {
             await interaction.reply('Pong!');
