@@ -1,3 +1,5 @@
+// test comment
+
 // Importing required modules
 const fs = require('node:fs');  // File system module for handling file operations
 const path = require('node:path');  // Path module for working with file and directory paths
