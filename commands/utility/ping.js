@@ -11,6 +11,9 @@ module.exports = {
         else if (interaction.user.id === "300050440672903168") {
             await interaction.reply("What's up?")
         }
+        else if (interaction.user.id === "294680009573138433") {
+            await interaction.reply(":clown: ")
+        }
         else {
             await interaction.reply('Pong!');
         }
