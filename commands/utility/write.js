@@ -12,7 +12,7 @@ module.exports = {
         }
         try {
             // Writing the object as a JSON string to the database file
-            fs.writeFileSync(db.json, JSON.stringify(obj));
+            fs.writeFileSync('db.json', JSON.stringify(obj));
             return console.log('Save successful');  // Log success message
         } catch (err) {
             return console.log('Save failed');  // Log failure message

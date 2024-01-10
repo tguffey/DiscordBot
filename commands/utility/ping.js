@@ -20,3 +20,5 @@ module.exports = {
         console.log("/ping command used")
     },
 };
+
+// YOOOOOOOOOOOOOOOOOOO
